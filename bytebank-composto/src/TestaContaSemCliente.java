@@ -9,6 +9,9 @@ public class TestaContaSemCliente {
 		contaDaMarcela.titular.nome = "Marcela";
 		System.out.println(contaDaMarcela.titular);
 		System.out.println(contaDaMarcela.titular.nome);
+		
+		contaDaMarcela.deposita(100);
+		System.out.println(contaDaMarcela.getExtrato());
 
 	}
 
